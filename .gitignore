@@ -34,5 +34,7 @@ node_modules/
 
 #Ignore the files from argoCD
 argo/.env
-
 argo/repo-secret.yaml
+
+#Ignore the tektons files
+tekton/.env
