@@ -38,3 +38,6 @@ argo/repo-secret.yaml
 
 #Ignore the tektons files
 tekton\.env
+
+#Ignore the all env
+**/.env
