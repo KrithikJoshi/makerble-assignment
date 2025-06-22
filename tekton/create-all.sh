@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "🚀 Creating DockerHub Secret..."
-kubectl apply -f docker-secret.yaml
+./generate-docker-secret.sh
 
 echo "👤 Creating Service Account..."
 kubectl apply -f service-account.yaml
