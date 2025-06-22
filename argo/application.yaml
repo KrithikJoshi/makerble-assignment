@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: "https://github.com/KrithikJoshi/makerble-rails-gitops.git"
+    repoURL: "https://github.com/KrithikJoshi/makerble-assignment.git"
     targetRevision: HEAD
-    path: makerble-rails-gitops\K8s
+    path: K8s
   destination:
     server: https://kubernetes.default.svc
     namespace: default
