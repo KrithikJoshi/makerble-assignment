@@ -12,6 +12,9 @@ spec:
   results:
     - name: commit
       description: The precise commit SHA that was fetched by this Task
+  workspaces:
+    - name: output               
+      description: The workspace where the repo will be cloned
   steps:
     - name: clone
       image: alpine/git
